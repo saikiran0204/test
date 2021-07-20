@@ -6,7 +6,7 @@ util.isNode = function() { return true; };
 // node.js specific modules
 util.crypto.lib = require('crypto');
 util.Buffer = require('buffer').Buffer;
-util.domain = require('domain');
+// util.domain = require('domain');
 util.stream = require('stream');
 util.url = require('url');
 util.querystring = require('querystring');
